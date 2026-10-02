@@ -1,0 +1,20 @@
+{
+  "name": "@geoshield/risk-engine-service",
+  "version": "1.0.0",
+  "description": "Risk Engine Service for calculating & ranking hazard directives",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@geoshield/shared": "file:../../shared",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "axios": "^1.7.2",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.11.3",
+    "dotenv": "^16.4.5"
+  }
+}
