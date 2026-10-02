@@ -1,0 +1,19 @@
+{
+  "name": "@geoshield/ingestion-service",
+  "version": "1.0.0",
+  "description": "Weather and satellite data ingestion service for GeoShield AI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@geoshield/shared": "file:../../shared",
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "node-cron": "^3.0.3",
+    "kafkajs": "^2.2.4",
+    "dotenv": "^16.4.5"
+  }
+}
